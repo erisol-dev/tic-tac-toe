@@ -44,3 +44,7 @@
     opacity: 0.9;
     transition: 10ms;
 }   
+
+.cell img{
+    height: 80px;
+}
