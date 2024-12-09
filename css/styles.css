@@ -1,0 +1,46 @@
+.body, html{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    height: 300px;
+    width: 300px;
+}
+
+.start-row{
+    display: flex;
+    flex: 1;
+}
+.mid-row{
+    display: flex;
+    flex: 1;
+}
+.last-row{
+    display: flex;
+    flex: 1;
+}
+.cell{
+    background-color: white;
+    border: 1px solid black;
+    flex: 1;
+    cursor: pointer;
+}
+
+.cell:hover{
+    opacity: 0.9;
+    transition: 10ms;
+}   

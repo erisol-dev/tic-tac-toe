@@ -1,0 +1,1 @@
+First thing is we want to build out 3x3 grid, I do want to make it dynamic, but lets start with something fixed first
